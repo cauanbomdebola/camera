@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+
+    <h1 class="tire">Tire uma foto para o seu perfil!</h1>
+    <section>
+        <video id="camera" autoplay></video><!--Tem que ser a tag video junto ao autplay, para funcionar -->
+
+        <div class="perfil">
+            <div id="foto"></div>
+            <h1>Nome</h1>
+            <h5>seunomeesobrenome@gmail.com</h3>
+        </div>
+    </section>
+
+    <div class="botoesFoto">
+        <button class="type1" onclick="abrirCamera()">Abrir câmera</button>
+        <button class="type1" onclick="tirarFoto()">Tirar Foto</button>
+        <button class="type1" onclick="fechar()">Fechar câmera</button>
+        <button class="type1" onclick="apagarFoto()">Apagar foto</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
